@@ -14,6 +14,9 @@
 		E40E91471AC514D500651089 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40E91461AC514D500651089 /* Images.xcassets */; };
 		E40E914A1AC514D500651089 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E40E91481AC514D500651089 /* LaunchScreen.xib */; };
 		E40E91561AC514D500651089 /* ringsevencomptestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E40E91551AC514D500651089 /* ringsevencomptestTests.m */; };
+		E40E91611AC5152000651089 /* UserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E40E91601AC5152000651089 /* UserTableViewCell.m */; };
+		E40E91641AC5155900651089 /* UserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40E91631AC5155900651089 /* UserTableViewController.m */; };
+		E40E91671AC5158200651089 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40E91661AC5158200651089 /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		E40E914F1AC514D500651089 /* ringsevencomptestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ringsevencomptestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40E91541AC514D500651089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E40E91551AC514D500651089 /* ringsevencomptestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ringsevencomptestTests.m; sourceTree = "<group>"; };
+		E40E915F1AC5152000651089 /* UserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTableViewCell.h; sourceTree = "<group>"; };
+		E40E91601AC5152000651089 /* UserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTableViewCell.m; sourceTree = "<group>"; };
+		E40E91621AC5155900651089 /* UserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTableViewController.h; sourceTree = "<group>"; };
+		E40E91631AC5155900651089 /* UserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTableViewController.m; sourceTree = "<group>"; };
+		E40E91651AC5158200651089 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		E40E91661AC5158200651089 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +95,12 @@
 				E40E91401AC514D500651089 /* ViewController.h */,
 				E40E91411AC514D500651089 /* ViewController.m */,
 				E40E91431AC514D500651089 /* Main.storyboard */,
+				E40E915F1AC5152000651089 /* UserTableViewCell.h */,
+				E40E91601AC5152000651089 /* UserTableViewCell.m */,
+				E40E91621AC5155900651089 /* UserTableViewController.h */,
+				E40E91631AC5155900651089 /* UserTableViewController.m */,
+				E40E91651AC5158200651089 /* ProfileViewController.h */,
+				E40E91661AC5158200651089 /* ProfileViewController.m */,
 				E40E91461AC514D500651089 /* Images.xcassets */,
 				E40E91481AC514D500651089 /* LaunchScreen.xib */,
 				E40E91391AC514D500651089 /* Supporting Files */,
@@ -219,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E40E91611AC5152000651089 /* UserTableViewCell.m in Sources */,
+				E40E91641AC5155900651089 /* UserTableViewController.m in Sources */,
 				E40E91421AC514D500651089 /* ViewController.m in Sources */,
 				E40E913F1AC514D500651089 /* AppDelegate.m in Sources */,
+				E40E91671AC5158200651089 /* ProfileViewController.m in Sources */,
 				E40E913C1AC514D500651089 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

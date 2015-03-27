@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E40E913C1AC514D500651089 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E40E913B1AC514D500651089 /* main.m */; };
+		E40E913F1AC514D500651089 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E40E913E1AC514D500651089 /* AppDelegate.m */; };
+		E40E91421AC514D500651089 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40E91411AC514D500651089 /* ViewController.m */; };
+		E40E91451AC514D500651089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40E91431AC514D500651089 /* Main.storyboard */; };
+		E40E91471AC514D500651089 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40E91461AC514D500651089 /* Images.xcassets */; };
+		E40E914A1AC514D500651089 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E40E91481AC514D500651089 /* LaunchScreen.xib */; };
+		E40E91561AC514D500651089 /* ringsevencomptestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E40E91551AC514D500651089 /* ringsevencomptestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E40E91501AC514D500651089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E40E912E1AC514D500651089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E40E91351AC514D500651089;
+			remoteInfo = ringsevencomptest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E40E91361AC514D500651089 /* ringsevencomptest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ringsevencomptest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40E913A1AC514D500651089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E40E913B1AC514D500651089 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E40E913D1AC514D500651089 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E40E913E1AC514D500651089 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E40E91401AC514D500651089 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E40E91411AC514D500651089 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E40E91441AC514D500651089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E40E91461AC514D500651089 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E40E91491AC514D500651089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E40E914F1AC514D500651089 /* ringsevencomptestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ringsevencomptestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40E91541AC514D500651089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E40E91551AC514D500651089 /* ringsevencomptestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ringsevencomptestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E40E91331AC514D500651089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40E914C1AC514D500651089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E40E912D1AC514D500651089 = {
+			isa = PBXGroup;
+			children = (
+				E40E91381AC514D500651089 /* ringsevencomptest */,
+				E40E91521AC514D500651089 /* ringsevencomptestTests */,
+				E40E91371AC514D500651089 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E40E91371AC514D500651089 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E40E91361AC514D500651089 /* ringsevencomptest.app */,
+				E40E914F1AC514D500651089 /* ringsevencomptestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E40E91381AC514D500651089 /* ringsevencomptest */ = {
+			isa = PBXGroup;
+			children = (
+				E40E913D1AC514D500651089 /* AppDelegate.h */,
+				E40E913E1AC514D500651089 /* AppDelegate.m */,
+				E40E91401AC514D500651089 /* ViewController.h */,
+				E40E91411AC514D500651089 /* ViewController.m */,
+				E40E91431AC514D500651089 /* Main.storyboard */,
+				E40E91461AC514D500651089 /* Images.xcassets */,
+				E40E91481AC514D500651089 /* LaunchScreen.xib */,
+				E40E91391AC514D500651089 /* Supporting Files */,
+			);
+			path = ringsevencomptest;
+			sourceTree = "<group>";
+		};
+		E40E91391AC514D500651089 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E40E913A1AC514D500651089 /* Info.plist */,
+				E40E913B1AC514D500651089 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E40E91521AC514D500651089 /* ringsevencomptestTests */ = {
+			isa = PBXGroup;
+			children = (
+				E40E91551AC514D500651089 /* ringsevencomptestTests.m */,
+				E40E91531AC514D500651089 /* Supporting Files */,
+			);
+			path = ringsevencomptestTests;
+			sourceTree = "<group>";
+		};
+		E40E91531AC514D500651089 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E40E91541AC514D500651089 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E40E91351AC514D500651089 /* ringsevencomptest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40E91591AC514D500651089 /* Build configuration list for PBXNativeTarget "ringsevencomptest" */;
+			buildPhases = (
+				E40E91321AC514D500651089 /* Sources */,
+				E40E91331AC514D500651089 /* Frameworks */,
+				E40E91341AC514D500651089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ringsevencomptest;
+			productName = ringsevencomptest;
+			productReference = E40E91361AC514D500651089 /* ringsevencomptest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E40E914E1AC514D500651089 /* ringsevencomptestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40E915C1AC514D500651089 /* Build configuration list for PBXNativeTarget "ringsevencomptestTests" */;
+			buildPhases = (
+				E40E914B1AC514D500651089 /* Sources */,
+				E40E914C1AC514D500651089 /* Frameworks */,
+				E40E914D1AC514D500651089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E40E91511AC514D500651089 /* PBXTargetDependency */,
+			);
+			name = ringsevencomptestTests;
+			productName = ringsevencomptestTests;
+			productReference = E40E914F1AC514D500651089 /* ringsevencomptestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E40E912E1AC514D500651089 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Baafuor Kwarteng";
+				TargetAttributes = {
+					E40E91351AC514D500651089 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E40E914E1AC514D500651089 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = E40E91351AC514D500651089;
+					};
+				};
+			};
+			buildConfigurationList = E40E91311AC514D500651089 /* Build configuration list for PBXProject "ringsevencomptest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E40E912D1AC514D500651089;
+			productRefGroup = E40E91371AC514D500651089 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E40E91351AC514D500651089 /* ringsevencomptest */,
+				E40E914E1AC514D500651089 /* ringsevencomptestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E40E91341AC514D500651089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40E91451AC514D500651089 /* Main.storyboard in Resources */,
+				E40E914A1AC514D500651089 /* LaunchScreen.xib in Resources */,
+				E40E91471AC514D500651089 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40E914D1AC514D500651089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E40E91321AC514D500651089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40E91421AC514D500651089 /* ViewController.m in Sources */,
+				E40E913F1AC514D500651089 /* AppDelegate.m in Sources */,
+				E40E913C1AC514D500651089 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40E914B1AC514D500651089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40E91561AC514D500651089 /* ringsevencomptestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E40E91511AC514D500651089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E40E91351AC514D500651089 /* ringsevencomptest */;
+			targetProxy = E40E91501AC514D500651089 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E40E91431AC514D500651089 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E40E91441AC514D500651089 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E40E91481AC514D500651089 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E40E91491AC514D500651089 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E40E91571AC514D500651089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E40E91581AC514D500651089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E40E915A1AC514D500651089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ringsevencomptest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E40E915B1AC514D500651089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ringsevencomptest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E40E915D1AC514D500651089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ringsevencomptestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ringsevencomptest.app/ringsevencomptest";
+			};
+			name = Debug;
+		};
+		E40E915E1AC514D500651089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ringsevencomptestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ringsevencomptest.app/ringsevencomptest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E40E91311AC514D500651089 /* Build configuration list for PBXProject "ringsevencomptest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40E91571AC514D500651089 /* Debug */,
+				E40E91581AC514D500651089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E40E91591AC514D500651089 /* Build configuration list for PBXNativeTarget "ringsevencomptest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40E915A1AC514D500651089 /* Debug */,
+				E40E915B1AC514D500651089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E40E915C1AC514D500651089 /* Build configuration list for PBXNativeTarget "ringsevencomptestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40E915D1AC514D500651089 /* Debug */,
+				E40E915E1AC514D500651089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E40E912E1AC514D500651089 /* Project object */;
+}
